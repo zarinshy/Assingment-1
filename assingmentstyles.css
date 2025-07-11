@@ -46,6 +46,75 @@
     cursor: pointer;
 
    }
+   .btn-third{
+ background-color: #4E47FF;
+    font-weight:none;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-size: 80%;
+    cursor: pointer;
+    margin-left:10%;
+    gap: 40%; 
+    
+    
+   }
+
+
+   .section-title{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style:normal;
+  font-size:40px;
+  padding-left: 10%;
+  color: #252432; 
+  
+
+}
+
+  .section-description{
+font-family: "Raleway", sans-serif;
+  font-optical-sizing:auto;
+  font-weight:lighter;
+  font-size:large;
+  padding-left: 10% ;
+  padding-right: 45px;
+ padding-top:0%;
+ color: #252432;
+ 
+
+  }
+   .heading-section{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 1300px;
+    
+   
+   }
+   .picture{
+    border-radius: 10%; margin-top: 15%;
+    margin-bottom: 20%;
+   
+   }
+   .seeit{width: 1400%;
+    padding-left: 15%;
+    height: 328%;
+
+
+}
+
+ 
+  
+
+
+
+  
+
+  
+ 
 
 
 
@@ -57,12 +126,7 @@
     background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png); 
     justify-content: center;
     height: 750px;
-    
-
-    
-    
-    
- }
+    }
 
 
 
