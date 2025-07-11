@@ -9,7 +9,7 @@
   font-weight:bolder;
   font-style:normal;
   font-size:xx-large;
-  padding:15%
+  padding:10% 20%
   
   
 }
@@ -39,7 +39,7 @@
     font-weight: none;
     color: white;
     border: none;
-    padding: 20px 36px;
+    padding: 16px 35px;
     border-radius: 10px;
     gap: 37 ;
     font-size: 60%;
@@ -56,8 +56,8 @@
  .header{
     background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png); 
     justify-content: center;
-    height: 698px;
-    width:1300px;
+    height: 750px;
+    
 
     
     
@@ -78,7 +78,8 @@ nav{
 .nav-titel{
     font-weight:bold;
     font-size:30px;
-    color: #4E47FF;
+    color: #4E47FF; 
+    
     
     
 }
@@ -87,6 +88,7 @@ nav ul li{
 }
 .banner{
     text-align: center;
-    margin: 0 0 30px 60px;
+    
+   
 }
 
