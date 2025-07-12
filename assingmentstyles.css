@@ -17,8 +17,15 @@
 }
 
 /*main styles*/
+ html, body{  
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   overflow-x: hidden;
+    
+}
 main {
-    width: fit-content;
+    
     height: max-content;
     align-content: center;
     background-color: #d9dfed9e;
@@ -72,6 +79,7 @@ main {
     text-align: center;
 }
 
+    
 
 
 
@@ -287,4 +295,88 @@ nav ul li {
     box-shadow: #aba9a995;
     margin-right: 30px;
 
+}
+
+/*form*/
+.touch {
+    font-weight: bolder;
+    font-family: "Raleway", sans-serif;
+    text-align: left;
+    font-size: 600%;
+    
+
+}
+
+.reg {
+
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 30%;
+    display: flex;
+    gap: 300px;
+    margin-top: 15%;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+}
+
+
+
+   
+
+.btn {
+    background-color: #4E47FF;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    padding: 20px 50px;
+    color: white;
+    border-radius: 10px;
+    font-size: small;
+    display: block;
+    margin-top: 30px; 
+    width: 270px;
+  
+}
+
+.info input ,textarea{
+    font-size: 16px;
+    padding: 13px 8px;
+    width: 60%; 
+    outline: none; 
+    border: none;
+
+}
+
+/*footer styles*/
+
+.foot {
+    height: 328px;
+    text-align: center;
+
+
+
+}
+
+.feet {
+    font-family: "Inter", sans-serif;
+    font-size: 400%;
+    color: #4E47FF;
+    font-weight: 800;
+    padding: 0;
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+
+.des {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 0% 30%;
+    color: #757575;
+}
+
+.options {
+    color: #757575
 }
